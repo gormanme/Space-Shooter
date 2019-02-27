@@ -13,10 +13,4 @@ public class RandomRotator : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.angularVelocity = Random.insideUnitSphere * tumble;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
